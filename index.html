@@ -7,7 +7,7 @@
     <title>My Website</title>
     <style>
       #catchme {
-        position: absolute;
+        position: absolute !important;
         top: 200px;
       }
     </style>
@@ -15,7 +15,7 @@
   <body>
     <main>
         <h1>Welcome to My Website</h1>  
-        <button id="catchme">Catch me!</button>
+        <button id="catchme" tabindex="-1">Catch me!</button>
     </main>
     <script src="script.js"></script>
   </body>
