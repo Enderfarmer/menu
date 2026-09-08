@@ -7,8 +7,3 @@ btn.addEventListener("mouseenter", () => {
 }
 )
 btn.addEventListener("click", () => {alert("You did it!")});
-while (true) {
-  let x = counter * 200 + 100;
-  btn.style.left = x + "px"
-  btn.style.position = "absolute !important";
-}
