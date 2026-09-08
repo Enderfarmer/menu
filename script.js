@@ -6,4 +6,4 @@ btn.addEventListener("mouseenter", () => {
   btn.style.left = x + "px"
 }
 )
-btn.addEventListener("click", () => {alert("You did it!"});
+btn.addEventListener("click", () => {alert("You did it!")});
